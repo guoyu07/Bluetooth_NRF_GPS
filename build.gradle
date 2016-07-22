@@ -1,0 +1,19 @@
+import com.sun.org.apache.xalan.internal.xsltc.cmdline.Compile
+
+//import sun.jvm.hotspot.opto.Compile
+
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+buildscript {
+    repositories {
+        jcenter()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:2.1.2'
+    }
+}
+
+allprojects {
+    repositories {
+        jcenter()
+    }
+}

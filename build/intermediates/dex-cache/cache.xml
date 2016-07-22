@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/jialin/Bluetooth_NRF_GPS/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="2f7e6e2dad1bccaf68a8820820adc6c0d5b96d37">
+        <dex dex="/Users/jialin/Bluetooth_NRF_GPS/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-24.0.0_eeae73a59845a8f792b0b131725ece608ea67a1e.jar" />
+    </item>
+    <item
+        jar="/Users/jialin/.gradle/caches/modules-2/files-2.1/com.android.support/support-annotations/24.0.0/2943c74db6d4346ab8c6531adac91fa05c137c40/support-annotations-24.0.0.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="2943c74db6d4346ab8c6531adac91fa05c137c40">
+        <dex dex="/Users/jialin/Android_APP/BlueTooth_nRFUART/app/build/intermediates/pre-dexed/debug/support-annotations-24.0.0_85e37e03922b77d62f234feede6d5952b369db33.jar" />
+    </item>
+    <item
+        jar="/Users/jialin/Bluetooth_NRF_GPS/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/jars/libs/internal_impl-24.0.0.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="fcaf463e10e69c1923ccf1edeba3b4196d239e00">
+        <dex dex="/Users/jialin/Bluetooth_NRF_GPS/app/build/intermediates/pre-dexed/debug/internal_impl-24.0.0_f06490503bd5744ce46b2ba97738ccc7f5fb8e36.jar" />
+    </item>
+    <item
+        jar="/Users/jialin/Android_APP/BlueTooth_nRFUART/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="f1d7127d886cc090a649337d8e575cc55d75e990">
+        <dex dex="/Users/jialin/Android_APP/BlueTooth_nRFUART/app/build/intermediates/pre-dexed/debug/instant-run-bootstrap_fa251961772adde4717fccecdc10516f618d5254.jar" />
+    </item>
+    <item
+        jar="/Users/jialin/Android_APP/BlueTooth_nRFUART/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="a9b7b5488dcf407f2652ca87b85b6ae9812a7992">
+        <dex dex="/Users/jialin/Android_APP/BlueTooth_nRFUART/app/build/intermediates/pre-dexed/debug/instant-run_f2712297996bda1a87184a7271ab6f2645c81773.jar" />
+    </item>
+    <item
+        jar="/Users/jialin/Bluetooth_NRF_GPS/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="8f3a186470b9f782b8c155816edd083c2c5289bc">
+        <dex dex="/Users/jialin/Bluetooth_NRF_GPS/app/build/intermediates/pre-dexed/debug/instant-run-bootstrap_c89c8b373ea5fa2c9be0d060c13b4669551b58ed.jar" />
+    </item>
+    <item
+        jar="/Users/jialin/Android_APP/BlueTooth_nRFUART/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="2f7e6e2dad1bccaf68a8820820adc6c0d5b96d37">
+        <dex dex="/Users/jialin/Android_APP/BlueTooth_nRFUART/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-24.0.0_a51135fd391c1ef4a8d4543c0cf0cd456968bd2a.jar" />
+    </item>
+    <item
+        jar="/Users/jialin/Android_APP/BlueTooth_nRFUART/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/jars/libs/internal_impl-24.0.0.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="fcaf463e10e69c1923ccf1edeba3b4196d239e00">
+        <dex dex="/Users/jialin/Android_APP/BlueTooth_nRFUART/app/build/intermediates/pre-dexed/debug/internal_impl-24.0.0_53ffaa2338d3ef3ef7c2c0f581da10ed7f9c4b79.jar" />
+    </item>
+    <item
+        jar="/Users/jialin/Bluetooth_NRF_GPS/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="5df867291b127be1e549d3d297d05c0aa73b3b5d">
+        <dex dex="/Users/jialin/Bluetooth_NRF_GPS/app/build/intermediates/pre-dexed/debug/instant-run_0dd2d2fc66f6d3ba9c43033a2da57a0e77971bd2.jar" />
+    </item>
+
+</items>

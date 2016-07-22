@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linearLayout_startinfo"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@android:color/white">
+    
+    <RelativeLayout 
+    	android:layout_width="match_parent"
+    	android:layout_height="420dp">     
+    	   
+		<TextView
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginLeft="80dp"
+			android:layout_marginRight="80dp"
+			android:layout_centerInParent="true"
+			android:textColor="@color/red"
+			android:textSize="20sp"
+			android:text="请告诉我您一些重要的信息，以便我能够为您进行运动数据分析"/>
+	
+    </RelativeLayout>
+    
+
+	<Button
+		android:id="@+id/start_info_btn"
+		android:layout_width="100dp"
+		android:background="@drawable/train_stop"
+		android:layout_height="40dp"
+		android:layout_gravity="center_horizontal"
+		android:text="开始"
+		android:textSize="20sp"/>
+	
+      
+
+</LinearLayout>

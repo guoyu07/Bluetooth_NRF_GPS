@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/Users/jialin/Bluetooth_NRF_GPS/app/build/intermediates/res/merged/debug/drawable/train_stop.xml",
+        "source": "/Users/jialin/Bluetooth_NRF_GPS/app/src/main/res/drawable/train_stop.xml"
+    },
+    {
+        "merged": "/Users/jialin/Bluetooth_NRF_GPS/app/build/intermediates/res/merged/debug/drawable/train_start.xml",
+        "source": "/Users/jialin/Bluetooth_NRF_GPS/app/src/main/res/drawable/train_start.xml"
+    },
+    {
+        "merged": "/Users/jialin/Bluetooth_NRF_GPS/app/build/intermediates/res/merged/debug/drawable/button_selector.xml",
+        "source": "/Users/jialin/Bluetooth_NRF_GPS/app/src/main/res/drawable/button_selector.xml"
+    }
+]

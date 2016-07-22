@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" 
+    android:background="@drawable/w04" 
+    android:layout_width="fill_parent" 
+    android:layout_height="fill_parent"
+  >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="112dp"
+        android:gravity="center"
+        android:text="注册登录用户\n添加一起骑行的人\n认识更多的朋友"
+        android:textColor="#fff"
+        android:textSize="22sp" />
+
+</RelativeLayout>

@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/get_back_birthday"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginLeft="5dp"
+        android:background="@drawable/left" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        android:text="您的生日是？"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="180dp" >
+
+        <TextView
+            android:id="@+id/yearshow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1975"
+            android:textColor="@color/black"
+            android:textSize="45sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="年"
+            android:textColor="@color/black"
+            android:textSize="45sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="380dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/dayshow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="15"
+            android:textColor="@color/black"
+            android:textSize="45sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="日"
+            android:textColor="@color/black"
+            android:textSize="45sp" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/next_step_birthday"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/train_stop"
+        android:text="下一步"
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/next_step_birthday"
+        android:layout_below="@+id/linearLayout1"
+        android:layout_marginTop="42dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/monthshow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="6"
+            android:textColor="@color/black"
+            android:textSize="45sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="月"
+            android:textColor="@color/black"
+            android:textSize="45sp" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/day_up"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/linearLayout3"
+        android:layout_alignLeft="@+id/month_up"
+        android:text="+"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/day_down"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/linearLayout3"
+        android:layout_alignLeft="@+id/month_down"
+        android:text="-"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/year_up"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/year_down"
+        android:layout_alignBottom="@+id/year_down"
+        android:layout_toRightOf="@+id/linearLayout1"
+        android:text="+"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/year_down"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/linearLayout2"
+        android:layout_toLeftOf="@+id/linearLayout1"
+        android:text="-"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/month_up"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/linearLayout2"
+        android:layout_toRightOf="@+id/linearLayout1"
+        android:text="+"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/month_down"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/linearLayout2"
+        android:layout_toLeftOf="@+id/linearLayout1"
+        android:text="-"
+        android:textSize="25sp" />
+
+</RelativeLayout>

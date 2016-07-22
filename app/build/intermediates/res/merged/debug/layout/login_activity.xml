@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+	<ImageView
+		android:background="@drawable/head_logo"
+		android:layout_width="100dp"
+		android:layout_height="100dp"
+		android:layout_marginTop="50dp"
+		android:layout_centerHorizontal="true"/>
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="200dp"
+		android:orientation="horizontal" >
+
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center_vertical"
+			android:text="用户名"
+			android:textColor="@color/black"
+			android:textSize="20sp"
+			android:layout_marginLeft="20dp"/>
+
+		<EditText
+			android:id="@+id/account_editext"
+			android:layout_width="fill_parent"
+			android:layout_height="40dp"
+			android:hint="请输入手机号"
+			android:textSize="14sp"
+			android:layout_marginRight="20dp"/>
+	</LinearLayout>
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="260dp"
+		android:orientation="horizontal" >
+
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center_vertical"
+			android:text="  密 码 "
+			android:textSize="20sp"
+			android:textColor="@color/black"
+			android:layout_marginLeft="20dp"/>
+
+		<EditText
+			android:id="@+id/password_edit"
+			android:layout_width="fill_parent"
+			android:layout_height="40dp"
+			android:gravity="center_vertical"
+			android:hint="请输入密码"
+			android:textSize="14sp"
+			android:layout_marginRight="20dp"
+			android:singleLine="true"/>
+		<!-- 隐藏密码 -->
+	</LinearLayout>
+	<CheckBox
+		android:id="@+id/remember_password"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="记住密码"
+		android:textSize="20dp"
+		android:textColor="@color/black"
+		android:layout_marginTop="300dp"
+		android:layout_alignRight="@+id/btn_login"
+		/>
+	<Button
+		android:id="@+id/btn_login"
+		android:layout_width="match_parent"
+		android:layout_height="40dp"
+		android:text="@string/login_login"
+		android:textSize="15sp"
+		android:layout_marginTop="400dp"
+		android:layout_marginLeft="50dp"
+		android:layout_marginRight="50dp"
+		android:background="@color/blue_gre"
+		android:layout_gravity="center"
+		android:onClick="onClick_Login"
+		/>
+	<Button
+		android:id="@+id/new_user"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="新用户"
+		android:textSize="20dp"
+		android:layout_alignParentBottom="true"
+		android:layout_alignParentEnd="true"
+		android:onClick="onClick_Login"
+		android:textColor="@color/black"
+		android:background="@color/white"
+		/>
+	<Button
+		android:id="@+id/phone_number"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="客服电话"
+		android:textSize="20dp"
+		android:layout_alignParentBottom="true"
+		android:layout_centerHorizontal="true"
+		android:onClick="onClick_Login"
+		android:textColor="@color/black"
+		android:background="@color/white"
+		/>
+	<Button
+		android:id="@+id/forget_password"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="忘记密码"
+		android:textSize="20dp"
+		android:layout_alignParentBottom="true"
+		android:layout_marginTop="20dp"
+		android:onClick="onClick_Login"
+		android:textColor="@color/black"
+		android:background="@color/white"
+		/>
+
+</RelativeLayout>

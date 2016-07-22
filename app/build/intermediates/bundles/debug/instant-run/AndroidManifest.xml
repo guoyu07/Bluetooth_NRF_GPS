@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ Copyright (C) 2013 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.nordicsemi.nrfUARTv2"
+    android:versionCode="43"
+    android:versionName="1.0.0" >
+
+    <uses-sdk
+        android:minSdkVersion="18"
+        android:targetSdkVersion="18" />
+
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <!-- //下面用来做来电监听时需要的权限 -->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.PROCESS_OUTGOING_CALLS" />
+    <!-- 短信 -->
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+
+    <android:uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <android:uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:name="com.android.tools.fd.runtime.BootstrapApplication"
+        android:icon="@drawable/head_logo"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.NoTitleBar" >
+        <activity
+            android:name="com.nordicsemi.User.AppStart"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="@string/app_name"
+            android:windowSoftInputMode="stateHidden" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- 注册时要写包名，不然会显示未定义错误，如com.nordicsemi.User.**Activity名字 -->
+        <activity
+            android:name="com.nordicsemi.nrfUARTv2.BleActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="@string/app_name"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.nordicsemi.nrfUARTv2.DeviceListActivity"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Dialog" />
+        <activity android:name="com.nordicsemi.User.StartLogoActivity" />
+        <activity android:name="com.nordicsemi.User.StartInfoActivity" />
+        <activity android:name="com.nordicsemi.User.HowHighActivity" />
+        <activity android:name="com.nordicsemi.User.WhatYourSexActivity" />
+        <activity android:name="com.nordicsemi.User.WhatYourWeight" />
+        <activity android:name="com.nordicsemi.User.LoginActivity" />
+        <activity android:name="com.nordicsemi.User.WhatYourBirthday" />
+        <activity android:name="com.nordicsemi.User.UserRegistActivity" />
+        <activity android:name="com.nordicsemi.User.MainUserUI" />
+        <activity android:name="com.nordicsemi.User.MainTopRightDialog" />
+        <activity android:name="com.nordicsemi.User.ExitFromSettings" />
+
+        <!-- 首先，由于BroadReceiver是Android组件之一，所以需要先声明才能使用，声明的方法如下： -->
+        <!-- //下面用来做来电监听 -->
+        <receiver android:name="com.nordicsemi.Myfiles.PhoneStatReceiver" >
+            <intent-filter>
+                <action android:name="android.intent.action.PHONE_STATE" />
+                <action android:name="android.intent.action.NEW_OUTGOING_CALL" />
+            </intent-filter>
+        </receiver>
+        <!-- 注册：建立receiver聆聽系統廣播訊息,短信提醒 -->
+        <receiver android:name="com.nordicsemi.Myfiles.SmsReceiverToast" >
+
+            <!-- 設定要捕捉的訊息名稱為provider中Telephony.SMS_RECEIVED -->
+            <intent-filter>
+                <action android:name="android.provider.Telephony.SMS_RECEIVED" />
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name="com.nordicsemi.nrfUARTv2.UartService"
+            android:enabled="true" />
+
+        <activity android:name="com.nordicsemi.User.ResetPassword" />
+        <activity android:name="com.nordicsemi.User.Measure" />
+    </application>
+
+</manifest>

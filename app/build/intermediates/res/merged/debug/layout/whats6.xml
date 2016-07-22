@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" 
+    android:background="@drawable/start_experience" 
+    android:layout_width="fill_parent" 
+    android:layout_height="fill_parent"
+  >
+    
+    <!-- <TextView 
+        android:layout_width="fill_parent" 
+        android:layout_height="wrap_content" 
+        android:gravity="center"         
+        android:text=" \n \n微信，是一个生活方式" 
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="35dp"
+        android:textSize="22sp"
+        android:textColor="#fff" 
+        /> -->
+
+    <Button
+        android:id="@+id/startbtn"
+        android:layout_width="220dp"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="50dp"
+        android:background="@drawable/experience_btn"
+        android:onClick="startbutton"
+        android:text="立即体验"
+        android:textColor="#fff"
+        android:textSize="25sp" />
+
+</RelativeLayout>

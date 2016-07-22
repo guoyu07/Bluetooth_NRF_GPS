@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="blue_gre">#66CCCC</color>
+    <color name="btn_style_green">#00FF00</color>
+    <color name="line_grew">#909090</color>
+    <color name="litter_grew">#CCCCCB</color>
+    <color name="moccasin">#FFEBCD</color>
+    <color name="orange">#FFCC00</color>
+    <color name="red">#FF0000</color>
+    <color name="tomato">#FF6347</color>
+    <color name="white">#FFFFFF</color>
+    <color name="whitegrey">#FFF2F2F2</color>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <string name="BatteryLevel">    Battery Level</string>
+    <string name="FirmwareRevision">FirmwareRevision</string>
+    <string name="HardwareRevision">HardwareRevision</string>
+    <string name="ManufactureId">    ManufactureId</string>
+    <string name="ManufactureName">ManufactureName</string>
+    <string name="ModelNumber">ModelNumber</string>
+    <string name="Noupdate">    No Update</string>
+    <string name="OrgId">    OrganizationId</string>
+    <string name="RadioButton1">Alert level high</string>
+    <string name="RadioButton2">Alert level mid</string>
+    <string name="RadioButton3">Stop alerting</string>
+    <string name="ReadTxPower">ReadTxPower</string>
+    <string name="Readdummy">D Read</string>
+    <string name="RegCertDataList">RegCertDataList</string>
+    <string name="SerialNumber">SerialNumber</string>
+    <string name="SoftwareRevision">SoftwareRevision</string>
+    <string name="SystemId">SystemId</string>
+    <string name="Txpower">    Txpower Level</string>
+    <string name="app_name">蓝牙测亩仪</string>
+    <string name="app_version">Update 2016-7-20</string>
+    <string name="average_peispeed">平均配速min/KM</string>
+    <string name="average_speed">平均速度KMH</string>
+    <string name="ble_not_supported">Bluetooth Low Energy not supported</string>
+    <string name="calorie">卡路里KCal</string>
+    <string name="cancel">Cancel</string>
+    <string name="connect">connect</string>
+    <string name="connected">Connected</string>
+    <string name="current_speed">当前速度KMH</string>
+    <string name="device">Device:</string>
+    <string name="disconnect">Disconnect</string>
+    <string name="disconnected">Not connected</string>
+    <string name="downhill">下坡KM</string>
+    <string name="elevation">海拔m</string>
+    <string name="fall">下降m</string>
+    <string name="fall_total">累计下降m</string>
+    <string name="fat_burn">燃烧脂肪g</string>
+    <string name="grade">坡度</string>
+    <string name="high_alert">HIGH Alert triggered!</string>
+    <string name="iasWrite">ImmediateAlert</string>
+    <string name="llsWrite">LinkLossAlert</string>
+    <string name="login_account">手机号</string>
+    <string name="login_login">登   录</string>
+    <string name="login_password">密   码</string>
+    <string name="low_alert">LOW Alert triggered!</string>
+    <string name="max_speed">最大速度KMH</string>
+    <string name="mileage">里程KM</string>
+    <string name="no_ble_devices">No LE devices found.</string>
+    <string name="no_device">&lt;Select a device></string>
+    <string name="pair">pair</string>
+    <string name="paired">paired</string>
+    <string name="popup_message">确定要退出吗?</string>
+    <string name="popup_no">NO</string>
+    <string name="popup_title">提示</string>
+    <string name="popup_yes">YES</string>
+    <string name="readRssi">Read Rssi Value</string>
+    <string name="ready">Ready</string>
+    <string name="removeBond">Remove Bond</string>
+    <string name="rise">上升m</string>
+    <string name="rise_total">累计上升m</string>
+    <string name="scan">Scan</string>
+    <string name="scanning">Scanning for devices...</string>
+    <string name="select_device">Select a device</string>
+    <string name="status">Status</string>
+    <string name="temperature">温度</string>
+    <string name="total_mileage">总里程KM</string>
+    <string name="total_time">用时</string>
+    <string name="total_total_time">总用时</string>
+    <string name="unpair">unpair</string>
+    <string name="uphill">上坡KM</string>
+    <string name="writeTxnoti">TxNoti</string>
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    <style name="DialogLight" parent="@android:style/Theme.Dialog">
+        
+        
+        <item name="android:windowBackground">@color/whitegrey</item>
+    	<item name="android:textColor">@color/black</item>
+    </style>
+</resources>
